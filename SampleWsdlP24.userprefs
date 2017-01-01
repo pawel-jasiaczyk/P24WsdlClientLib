@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="SampleWsdlP24/SampleWsdlP24.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SampleWsdlP24/Program.cs">
+    <Files>
+      <File FileName="SampleWsdlP24/Program.cs" Line="52" Column="14" />
+      <File FileName="SampleWsdlP24/WSProxy.cs" Line="58" Column="90" />
+      <File FileName="P24_WSDL/P24_WSDL.cs" Line="107" Column="50" NotebookId="1" />
+      <File FileName="P24_WSDL/Enums/WsdlMode.cs" Line="3" Column="18" NotebookId="1" />
+      <File FileName="P24_WSDL/Enums/WsdlType.cs" Line="5" Column="25" NotebookId="1" />
+      <File FileName="P24_WSDL/Enums/WsdlVersion.cs" Line="12" Column="1" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
