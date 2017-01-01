@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWsdlP24", "SampleWsdlP24\SampleWsdlP24.csproj", "{39381E79-8484-4699-B37D-D503DD8FAEBD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P24Wsdl", "P24Wsdl\P24Wsdl.csproj", "{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P24_test", "P24_test\P24_test.csproj", "{55D10D50-5C6A-427B-8116-1223044B92E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +15,9 @@ Global
 		{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}.Debug|x86.Build.0 = Debug|Any CPU
 		{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}.Release|x86.ActiveCfg = Release|Any CPU
 		{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}.Release|x86.Build.0 = Release|Any CPU
-		{39381E79-8484-4699-B37D-D503DD8FAEBD}.Debug|x86.ActiveCfg = Debug|x86
-		{39381E79-8484-4699-B37D-D503DD8FAEBD}.Debug|x86.Build.0 = Debug|x86
-		{39381E79-8484-4699-B37D-D503DD8FAEBD}.Release|x86.ActiveCfg = Release|x86
-		{39381E79-8484-4699-B37D-D503DD8FAEBD}.Release|x86.Build.0 = Release|x86
+		{55D10D50-5C6A-427B-8116-1223044B92E1}.Debug|x86.ActiveCfg = Debug|x86
+		{55D10D50-5C6A-427B-8116-1223044B92E1}.Debug|x86.Build.0 = Debug|x86
+		{55D10D50-5C6A-427B-8116-1223044B92E1}.Release|x86.ActiveCfg = Release|x86
+		{55D10D50-5C6A-427B-8116-1223044B92E1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

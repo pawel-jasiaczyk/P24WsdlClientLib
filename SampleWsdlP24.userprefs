@@ -1,8 +1,8 @@
-﻿<Properties StartupItem="SampleWsdlP24/SampleWsdlP24.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SampleWsdlP24/Program.cs">
+﻿<Properties StartupItem="P24_test/P24_test.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="SampleWsdlP24/Program.cs" Line="47" Column="18" />
+      <File FileName="SampleWsdlP24/Program.cs" Line="40" Column="20" />
       <File FileName="SampleWsdlP24/WSProxy.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

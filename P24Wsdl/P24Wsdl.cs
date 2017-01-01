@@ -40,6 +40,12 @@ namespace P24Wsdl
         public CompilerResults P24Assembly{ get { return this.p24Assembly; } }
 
         /// <summary>
+        /// Inform if there was any errors or warning during processing wsdl.
+        /// Especialy during compiling library.
+        /// </summary>
+        /// <value><c>true</c> if this instance has errors; otherwise, <c>false</c>.</value>
+        public bool HasErrors{ get; private set; }
+        /// <summary>
         /// Array of exceptions thrown during creating assembly or objects
         /// </summary>
         /// <value>The exceptions.</value>
@@ -54,11 +60,13 @@ namespace P24Wsdl
         /// </summary>
         /// <value>The errors.</value>
         public CompilerError[] Errors { get { return this.compilerErrors.ToArray (); } }
-
+        /// <summary>
+        /// Returns http addres of wsdl desrcription
+        /// </summary>
+        /// <value>The wsdl address.</value>
         public string WsdlAddress { get { return this.wsdlAddress; } }
 
         #endregion
-
 
         #region C'tors
         /// <summary>
@@ -86,11 +94,63 @@ namespace P24Wsdl
             }
             catch(Exception ex)
             {
+                this.HasErrors = true;
                 this.exceptions.Add (ex);
             }
         }
 
         #endregion
+
+        #region Public Methods
+
+        /// <summary>
+        /// Returns list of all errors, exceptions and warnings that was noticed during
+        /// processing WSLD.
+        /// Especially there are compiller errors.
+        /// </summary>
+        /// <returns>The errors as one string.</returns>
+        public string GetErrorsAsOneString()
+        {
+            if (this.HasErrors)
+            {
+                StringBuilder stb = new StringBuilder ();
+
+                if (this.warnings.Count > 0)
+                {
+                    stb.Append ("Warnings:\n\r");
+                    foreach (ServiceDescriptionImportWarnings warn in this.warnings)
+                    {
+                        stb.Append ("\t");
+                        stb.Append (warn.ToString ());
+                    }
+                }
+                if (this.compilerErrors.Count > 0)
+                {
+                    stb.Append ("Compiler Errors\n\r");
+                    foreach (CompilerError err in this.compilerErrors)
+                    {
+                        stb.Append ("\t");
+                        stb.Append (err.ToString ());
+                    }
+                }
+                if (this.exceptions.Count > 0)
+                {
+                    stb.Append ("Exceptions:\n\r");
+                    foreach (Exception ex in this.exceptions)
+                    {
+                        stb.Append ("\t");
+                        stb.Append (ex.ToString ());
+                    }
+                }
+
+                return stb.ToString ();
+            } else
+                return string.Format ("There was no errors, warnings or exceptions");
+        }
+
+        #endregion
+
+        #region Private Methods
 
         /// <summary>
         /// Create Assembly from WSDL
@@ -133,7 +193,7 @@ namespace P24Wsdl
 
             // Initialize a service description importer.
             ServiceDescriptionImporter importer = new ServiceDescriptionImporter ();
-            importer.ProtocolName = "Soap";
+            importer.ProtocolName = "Soap"; // must by "Soap". That means protocol version 1.1
             importer.AddServiceDescription(this.description, null, null);
 
             // generate a proxy client
@@ -172,6 +232,7 @@ namespace P24Wsdl
 
                     if(results.Errors.Count > 0)
                     {
+                        this.HasErrors = true;
                         foreach(CompilerError error in results.Errors)
                         {
                             this.compilerErrors.Add(error);
@@ -186,16 +247,20 @@ namespace P24Wsdl
                 }
                 catch(Exception ex)
                 {
+                    this.HasErrors = true;
                     this.exceptions.Add (ex);
                 }
                 return null;
             } 
             else
             {
+                this.HasErrors = true;
                 this.warnings.Add (warning);
                 return null;
             }
         }
+
+        #endregion
     }
 }
 

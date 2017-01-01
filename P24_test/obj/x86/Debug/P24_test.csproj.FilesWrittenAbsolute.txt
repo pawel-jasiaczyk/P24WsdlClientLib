@@ -1,0 +1,7 @@
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24_test/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24_test/bin/Debug/P24_test.exe.mdb
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24_test/bin/Debug/P24_test.exe
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24_test/obj/x86/Debug/P24_test.exe
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24_test/obj/x86/Debug/P24_test.exe.mdb
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24_test/bin/Debug/P24Wsdl.dll
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24_test/bin/Debug/P24Wsdl.dll.mdb
