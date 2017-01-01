@@ -42,8 +42,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\P24_WSDL\P24Wsdl.csproj">
-      <Project>{D6C950DF-72BD-4B5B-BF43-DE056B2F99C1}</Project>
+    <ProjectReference Include="..\P24Wsdl\P24Wsdl.csproj">
+      <Project>{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}</Project>
       <Name>P24Wsdl</Name>
     </ProjectReference>
   </ItemGroup>

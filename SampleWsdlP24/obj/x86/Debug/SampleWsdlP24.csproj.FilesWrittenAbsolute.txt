@@ -5,3 +5,5 @@
 /home/pawel/Projekty/Mono/SampleWsdlP24/SampleWsdlP24/obj/x86/Debug/SampleWsdlP24.exe.mdb
 /home/pawel/Projekty/Mono/SampleWsdlP24/SampleWsdlP24/bin/Debug/P24_WSDL.dll
 /home/pawel/Projekty/Mono/SampleWsdlP24/SampleWsdlP24/bin/Debug/P24_WSDL.dll.mdb
+/home/pawel/Projekty/Mono/SampleWsdlP24/SampleWsdlP24/bin/Debug/P24Wsdl.dll
+/home/pawel/Projekty/Mono/SampleWsdlP24/SampleWsdlP24/bin/Debug/P24Wsdl.dll.mdb

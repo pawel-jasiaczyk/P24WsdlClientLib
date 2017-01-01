@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D6C950DF-72BD-4B5B-BF43-DE056B2F99C1}</ProjectGuid>
+    <ProjectGuid>{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>P24_WSDL</RootNamespace>
-    <AssemblyName>P24_WSDL</AssemblyName>
+    <RootNamespace>P24Wsdl</RootNamespace>
+    <AssemblyName>P24Wsdl</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -35,10 +35,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="P24_WSDL.cs" />
-    <Compile Include="Enums\WsdlType.cs" />
     <Compile Include="Enums\WsdlMode.cs" />
+    <Compile Include="Enums\WsdlType.cs" />
     <Compile Include="Enums\WsdlVersion.cs" />
+    <Compile Include="P24Wsdl.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

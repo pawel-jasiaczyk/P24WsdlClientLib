@@ -1,0 +1,5 @@
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24Wsdl/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24Wsdl/bin/Debug/P24Wsdl.dll.mdb
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24Wsdl/bin/Debug/P24Wsdl.dll
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24Wsdl/obj/Debug/P24Wsdl.dll
+/home/pawel/Projekty/Mono/SampleWsdlP24/P24Wsdl/obj/Debug/P24Wsdl.dll.mdb
