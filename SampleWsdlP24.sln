@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P24Wsdl", "P24Wsdl\P24Wsdl.csproj", "{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P24_test", "P24_test\P24_test.csproj", "{55D10D50-5C6A-427B-8116-1223044B92E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P24", "P24\P24.csproj", "{D9D759CD-7FEF-4BA7-B32E-C72096FDB500}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +11,13 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}.Debug|x86.Build.0 = Debug|Any CPU
-		{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}.Release|x86.ActiveCfg = Release|Any CPU
-		{2BB0A485-D86B-4880-8005-E22A6BCFA0F2}.Release|x86.Build.0 = Release|Any CPU
 		{55D10D50-5C6A-427B-8116-1223044B92E1}.Debug|x86.ActiveCfg = Debug|x86
 		{55D10D50-5C6A-427B-8116-1223044B92E1}.Debug|x86.Build.0 = Debug|x86
 		{55D10D50-5C6A-427B-8116-1223044B92E1}.Release|x86.ActiveCfg = Release|x86
 		{55D10D50-5C6A-427B-8116-1223044B92E1}.Release|x86.Build.0 = Release|x86
+		{D9D759CD-7FEF-4BA7-B32E-C72096FDB500}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D9D759CD-7FEF-4BA7-B32E-C72096FDB500}.Debug|x86.Build.0 = Debug|Any CPU
+		{D9D759CD-7FEF-4BA7-B32E-C72096FDB500}.Release|x86.ActiveCfg = Release|Any CPU
+		{D9D759CD-7FEF-4BA7-B32E-C72096FDB500}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
